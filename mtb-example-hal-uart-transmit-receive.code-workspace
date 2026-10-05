@@ -1,0 +1,18 @@
+{
+    "folders": [
+        { "path": "." },
+        { "path": "../mtb_shared" }
+    ],
+    "settings": {
+        "C_Cpp.intelliSenseEngine": "disabled",
+        "clangd.detectExtensionConflicts": false,
+        "makefile.configureOnOpen": false
+    },
+    "extensions": {
+        "recommendations": [
+            "marus25.cortex-debug",
+            "infineonag.modustoolbox-for-vscode",
+            "dan-c-underwood.arm"
+        ]
+    }
+}

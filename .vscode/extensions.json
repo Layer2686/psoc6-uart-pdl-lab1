@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "marus25.cortex-debug",
+        "infineonag.modustoolbox-for-vscode",
+        "dan-c-underwood.arm"
+    ],
+    "unwantedRecommendations": [
+        "ms-vscode.cpptools"
+    ]
+}

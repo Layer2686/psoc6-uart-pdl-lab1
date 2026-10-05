@@ -1,0 +1,54 @@
+# Build outputs and local ModusToolbox state
+/build/
+/Debug/
+/Release/
+/.cache/
+/.modustoolbox/
+/.mtbqueryapi
+/.ninja_log
+/.ninja_deps
+/Microsoft/
+/tmp/
+/.tmp/
+*.log
+*.lock
+*.bak
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.d
+
+# Library sources are restored by make getlibs; keep their version descriptors.
+/libs/*
+!/libs/*.mtb
+/mtb_shared/
+
+# Keep our custom BSP, including its generated configuration and licences.
+/bsps/*/docs/
+
+# Machine-specific IDE settings are regenerated on each computer.
+/.vscode/*
+!/.vscode/tasks.json
+!/.vscode/launch.json
+!/.vscode/extensions.json
+/.metadata/
+/.settings/
+/.cproject
+/.project
+/.mtbLaunchConfigs/
+
+# Editor and OS files
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local credentials
+.env
+.env.*
+*.pem
+*.key
